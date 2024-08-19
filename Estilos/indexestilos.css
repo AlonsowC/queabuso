@@ -293,6 +293,7 @@ ul li a {
     align-items: center;
     text-align: center;
     margin-top: 10px;
+    animation: fadeIn 0.3s ease-in;
 }
 
 .perfilapartado1 img {

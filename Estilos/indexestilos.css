@@ -314,6 +314,7 @@ ul li a {
     flex-direction: column;
     gap: 20px;
     margin-top: 120px;
+    animation: fadeIn 0.3s ease-in;
 }
 
 .elementosperfil1 {

@@ -1,0 +1,698 @@
+/* Estilos de index*/
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: rgba(255, 255, 255, 0.638);
+}
+.nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav ul li {
+    margin: 0 10px;
+}
+
+.queabusologo{
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+}
+
+.login{
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #862020;
+    color: white;
+    font-family: Verdana;
+    text-decoration: none;
+}
+.qabuso{
+    color: #862020;
+    font-family: verdana;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    margin-left: 70px;
+    animation: fadeIn 0.3s ease-in;
+
+}
+.nuestrosplatos{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.imagenesindex{
+    width: 530px;
+    height: 390px;
+    border-radius: 30px;
+    margin: 10px;
+    animation: fadeIn 0.3s ease-in;
+}
+
+/* Estilos pagina Login, registrarse */
+.back{
+    font-size: 25px;
+    color: #862020;
+    margin-left: 150px;
+    font-family: verdana;
+    animation: fadeIn 0.3s ease-in;
+}
+.clickeables{
+    display: flex;
+    justify-content: center;
+}
+.inicios{
+    display: flex;
+    justify-content: center;
+    animation: fadeIn 0.3s ease-in;
+}
+.inicios input{
+    margin-top: 10px;
+    padding: 10px 10px;
+    width: 400px;
+    height: 20px;
+    border-radius: 8px;
+    font-family: verdana;
+    animation: fadeIn 0.3s ease-in;
+    
+}
+.pass{
+    display: flex;
+    justify-content: center;
+    animation: fadeIn 0.3s ease-in;
+}
+.pass input{
+    margin-top: 20px;
+    padding: 10px 10px;
+    width: 400px;
+    height: 20px;
+    border-radius: 8px;
+    font-family: verdana;
+    animation: fadeIn 0.3s ease-in;
+}
+.botoniniciar{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    animation: fadeIn 0.3s ease-in;
+}
+.botoniniciar a{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    width: 425px;
+    height: 45px;
+    border-color: black;
+    border: 2px solid;
+    text-decoration: none;
+    border-radius: 11px;
+    color: white;
+    background-color: #862020;
+    font-family: verdana;
+    animation: fadeIn 0.3s ease-in;
+}
+.titulos{
+    font-family: verdana;
+    font-size: 30px;
+    text-align: center;
+    animation: fadeIn 0.3s ease-in;
+}
+.titulosrojo{
+    color: #862020;
+    font-family: verdana;
+    font-size: 30px;
+    text-align: center;
+    animation: fadeIn 0.3s ease-in;
+}
+.titulospequeños{
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+    animation: fadeIn 0.3s ease-in;
+}
+.subrayado{
+    text-decoration: underline;
+    animation: fadeIn 0.3s ease-in;
+}
+.olvidepass{
+    font-size: 25px;
+    animation: fadeIn 0.3s ease-in;
+}
+.recuperar{
+    background-color: #862020;
+    width: 400px;
+    height: 20px;
+    padding: 15px 180px;
+    border-color: black;
+    border: 2px solid;
+    text-decoration: none;
+    border-radius: 11px;
+    color: white;
+    font-family: verdana;
+    animation: fadeIn 0.3s ease-in;
+}
+
+/* Estilos pagina Menu*/
+a{
+    color: #862020;
+    text-decoration: none;
+}
+ul li{
+    display: flex;
+    padding: 0px 20px;
+}
+ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana;
+}
+.buscar{
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+    margin-top: 2.5px;
+
+}
+.caja{
+    border: 2px solid;
+    border-color: black;
+    width: 875px;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.638);
+    height: 30px;
+    display: flex;
+    border-radius: 10px;
+    margin: auto;
+}
+.caja input{
+    width: 900;
+    outline: none;
+    border: none;
+    font-family: arial;
+    font-weight: 500;
+    background: transparent;
+}
+.cajademenus{
+    display: flex  ;
+    justify-content: center;
+    flex-wrap: wrap;
+    animation: fadeIn 0.3s ease-in;
+}
+.cajadepedidos{
+    display: flex;
+    justify-content: center;
+    animation: fadeIn 0.3s ease-in;
+}
+.centrar{
+    text-align: center;
+}
+
+
+.menuseleccionables{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.3s ease-in;
+}
+.pagmenu{
+    background-color: #D9D9D9;
+    width: 800px;
+    height: 65px;
+    border-radius: 11px;
+    animation: fadeIn 0.3s ease-in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.pagmenu ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.rojo{
+    color: #862020;
+}
+
+.objeto1{
+    background-color: #D9D9D9;
+    width: 500px;
+    height: 150px;
+    border-radius: 11px;
+    margin: 10px;
+    display:flex;
+}
+.itemham{
+    width: 170px;
+    height: 100px;
+    border-radius: 11px;
+    margin: 25px;
+}
+.textoitem1{
+    font-size: 20px;
+    font-family: Verdana;
+    margin-top: 25px;
+}
+.pedir{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 91px;
+    color: black;
+    background-color: #D9D9D9;
+    border-radius: 11px;
+    border: 2px solid;
+
+}
+.pedir a{
+    font-size: 16px;
+    text-align: center; 
+    display: grid;
+    font-family: Verdana;
+    margin-top: 10px;
+}
+/* Estilos pagina Perfil*/
+.perfilapartado1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.perfilapartado1 img {
+    width: 100px;
+    height: 100px;
+}
+.perfilapartado1 p{
+    margin-top: 5px;
+    font-family: verdana;
+}
+
+.contenedor-perfil {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 120px;
+}
+
+.elementosperfil1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.elementosperfil1 p {
+    font-family: verdana;
+    margin: 0;
+}
+
+.tarjeta, .direccion, .configuracion {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+.perfilfoto{
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 100%;
+}
+
+/* Estilos pagina Mis Pedidos*/
+.mispedidostitulo{
+    font-family: verdana;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    animation: fadeIn 0.3s ease-in;
+    justify-content: center;
+}
+.iniciarsesa{
+    font-family: verdana;
+    text-decoration: bold;
+    font-size: 20px;
+    align-content: center;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    background-color: #918f8f;
+    border-radius: 11px;
+}
+.mispedidos{
+    font-family: Verdana;
+    font-size: 40px;
+}
+.pagarpedidoapartado1{
+    display: flex;
+    justify-content: end;
+}
+.textomaspequeñopedido{
+    font-family: verdana;
+    margin-left: 35px;
+    font-size: 17px;
+    opacity: 70%;
+}
+.textopequeñopedido{
+    font-family: verdana;
+    margin-left: 23px;
+    font-size: 20px;
+    text-decoration:underline;
+    font-weight: bold;
+}
+.apartadodeventa{
+    display: flex;
+    justify-content: space-between;
+    animation: fadeIn 0.3s ease-in;
+}
+.apartadodeventa1{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 600px;
+    background-color: #D9D9D9;
+    border-radius: 11px;
+}
+.apartadoventa2{
+    margin-top: 20px;
+}
+.pagar{
+    display: flex;
+    justify-content: center;
+}
+.pagar a{
+    width: 250px;
+    height: 70px;
+    background-color: #862020;
+    border-radius: 11px;
+    border: 0px solid;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 210px;
+}
+.objeto1parapagar{
+    background-color: #D9D9D9;
+    width: 500px;
+    height: 150px;
+    border-radius: 11px;
+    margin: 10px;
+    display:flex;
+}
+.pedidosdiv{
+    background-color: #D9D9D9;
+    width: 800px;
+    height: 450px;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pedidoscompletadodiv{
+    background-color: #D9D9D9;
+    width: 800px;
+    height: 450px;
+    border-radius: 11px;
+    display: flex;
+}
+.objeto1pedidocompletado{
+    background-color: #D9D9D9;
+    width: 500px;
+    height: 150px;
+    border-radius: 11px;
+    margin: 10px;
+    display:flex;
+}
+.pagar h1{
+    font-family: verdana;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+.objeto1pedido{
+    background-color: #D9D9D9;
+    width: 800px;
+    height: 150px;
+    border-radius: 11px;
+    display:flex;
+    float: left;
+    margin-left: 60px;
+}
+/* Quienes somos estilos */
+.quienessomos{
+    background-color: #D9D9D9;
+    width: 550px;
+    height: 550px;
+    border-radius: 11px;
+    border: 2px solid;
+    color: #862020;
+    margin: 10px;
+}
+.quienessomos h1{
+    font-family: verdana;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+}
+.quienessomos p{
+    font-family: verdana;
+    margin: 40px;
+    font-size: 19px;
+    margin-top: 10px;
+    color: black;
+}
+.quienessomos2{
+    background-color: #D9D9D9;
+    width: 550px;
+    height: 550px;
+    border-radius: 11px;
+    margin: 10px
+
+}
+.quienessomos2 img{
+    width: 550px;
+    height: 550px;
+    border: 2px solid;
+    color: #862020;
+    border-radius: 11px;
+}
+.cajadesobrenosotros{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    animation: fadeIn 0.3s ease-in;
+}
+
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Responsive login */
+    .back{
+        margin-left: 70px;
+        font-size: 30px;
+    }
+    .titulos{
+        font-size: 50px;
+    }
+    .inicios input{
+        font-size: 20px;
+        margin-top: 10px;
+        width: 450px;
+        height: 30px;
+        border-radius: 8px;
+        font-family: verdana;
+        animation: fadeIn 0.3s ease-in;
+        
+    }
+    .botoniniciar{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        animation: fadeIn 0.3s ease-in;
+
+    }
+    .botoniniciar a{
+        font-size: 25px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        background-color: aliceblue;
+        width: 474px;
+        height: 55px;
+        border-color: black;
+        border: 2px solid;
+        text-decoration: none;
+        border-radius: 11px;
+        color: white;
+        background-color: #862020;
+        font-family: verdana;
+        animation: fadeIn 0.3s ease-in;
+    }
+    .titulospequeños{
+        font-family: verdana;
+        font-size: 27px;
+        text-align: center;
+        animation: fadeIn 0.3s ease-in;
+
+    }
+    /* responsive index */
+    .nav ul {
+        display: flex; 
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        z-index: 1000; /* Asegura que esté por encima de otros elementos */
+        padding: 10px 0; /* Añade algo de padding vertical */
+        margin: 0; /* Elimina márgenes por defecto */
+        justify-content: space-around; /* Distribuye los elementos equitativamente */
+        box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    }
+    body {
+        padding-bottom: 60px; /* Ajusta este valor según la altura de tu nav */
+    }
+
+    .nav ul li {
+        margin: 0; /* Elimina márgenes de los elementos de la lista */
+    }
+
+    .nav ul li a {
+        text-decoration: none;
+        color: #333; /* Ajusta el color según tu diseño */
+        padding: 10px;
+        display: block;
+    }
+
+    .imagenesindex{
+        width: 270px;
+        height: 160px;
+    }
+    .qabuso{
+        font-size: 30px;
+
+    }
+    /* Responsive sobre nosotros */
+    .quienessomos{
+        width: 500px;
+    }
+    .quienessomos h1{
+        font-size: 28px;
+    }
+    .quienessomos p{
+        font-size: 18px;
+    }
+    .quienessomos2{
+        display: none;
+    }
+    .mispedidos{
+        font-size: 25px;
+    }
+    /* Responsive menu */
+    .caja{
+        display: none;
+    }
+    .pagmenu{
+        width: 500px;
+        height: 70px;
+
+    }
+    /*Responsive Pedidos*/
+    .pedidosdiv{
+        width: 570px;
+        height: 650px;
+    }
+    /*Responsive perfil*/
+    .perfilapartado1 img{
+        width: 150px;
+        height: 150px;
+    }
+    .perfilapartado1 p{
+        font-size: 20px;
+    }
+    .contenedor-perfil{
+        margin-top: 150px;
+    }
+    .tarjeta, .direccion, .configuracion {
+        margin-right: 10px;
+        width: 55px;
+        height: 55px;
+    }
+    /* Responsive pedidos completados*/
+
+    .objeto1pedidocompletado{
+        background-color: #D9D9D9;
+        width: 400px;
+        height: 150px;
+        border-radius: 11px;
+        margin: 10px;
+        display:flex;
+    }
+    .pedidoscompletadodiv{
+        background-color: #D9D9D9;
+        width: 570px;
+        height: 470px;
+        border-radius: 11px;
+    }
+    /* Responsive pagar pedido*/
+    .apartadodeventa{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .objeto1parapagar{
+        display: flex;
+        width: 420px;
+    }
+    .apartadodeventa1{
+        width: 420px;
+    }
+}
+
+
+
+
+
+footer{
+    background-color: #862020;
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+}
